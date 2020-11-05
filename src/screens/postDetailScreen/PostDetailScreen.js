@@ -27,7 +27,7 @@ const PostDetailScreen = (props) => {
         <Text style={styles.commentNameTextStyle}>
           {userNames[item.id] || item.email.split("@")[0]}
         </Text>
-        <Text style={styles.commentTextStyle} numberOfLines={1}>
+        <Text style={styles.commentTextStyle}>
           {item.body}
         </Text>
       </View>
